@@ -13,6 +13,7 @@ import rehypeHighlight from "https://esm.sh/v126/rehype-highlight@5.0.2";
 import rehypeSlug from "https://esm.sh/v126/rehype-slug@5.0.1";
 
 serve({
+  port: 8080,
   plugins: [
     denoDeploy({ modules }),
     mdx({
